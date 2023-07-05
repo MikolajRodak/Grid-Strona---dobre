@@ -284,6 +284,85 @@ h1.company-name {
   display: none;
 }
 
+.plans {
+  padding: 6em 2em;
+  background-color: #191919;
+}
+.plans__box {
+  margin: 1em 0;
+  padding: 2em 1em;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #232323;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.plans__box:hover {
+  background-color: #191919;
+  border: 1px solid #d6c78e;
+}
+.plans__box__item {
+  margin: 1em 0;
+}
+.plans__box__item-icon {
+  width: 50px;
+}
+.plans__box__item-name {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-size: 1.8rem;
+  color: #d6c78e;
+}
+
+.nwesletter {
+  padding: 8em 2em;
+  background-color: #A01C35;
+  text-align: center;
+}
+.nwesletter__text {
+  padding: 1em;
+  margin-bottom: 1em;
+  font-size: 4rem;
+  font-weight: 200;
+}
+.nwesletter__form input {
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+.nwesletter__form button {
+  padding: 1em;
+  border: 1px solid #d6c78e;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #d6c78e;
+  transition: background-color 0.3s;
+}
+.nwesletter__form button:hover {
+  color: #A01C35;
+  background-color: #d6c78e;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gallery img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery img:nth-child(odd) {
+  display: none;
+}
+
 .footer {
   padding: 3em 1em;
   border-top: 1px solid #191919;
